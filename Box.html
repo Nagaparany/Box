@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/samsung-sharp-sans" rel="stylesheet">
+    <style>
+        *,*::before,
+          *::after{
+           margin: 0px;
+           padding: 0px;
+           box-sizing: border-box;
+         }
+         body{
+            font-family:'Samsung Sharp Sans', sans-serif;
+            background-color: black;
+            color:white;
+         }
+         .btn{
+            cursor: pointer;
+            background-color: white;
+            color: rgb(48, 217, 230);
+            padding: 10px;
+            border-radius: 7px;
+            border: none;
+            font-family:'Samsung Sharp Sans', sans-serif;
+        }
+        .card{
+            background: rgb(160, 189, 164);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            width: 600px;
+            margin: 100px auto;
+            padding: 60px;
+            line-height: 1.5;
+            border-radius: 10px;
+        }
+        .card:hover{
+         box-shadow: 50px 50px 50px rgb(0, 233, 12);
+        }
+        .name{
+           font-size: 12px;
+           text-transform: uppercase;
+           font-weight: 300;
+           letter-spacing: 3px;
+           color:navy;
+         }
+         .title{
+            margin: 15px 0px;
+         }
+         .description{
+            line-height: 1.2;
+            max-width: 50ch;
+            text-align: justify;
+         }
+         .btn{
+           margin-top: 20px; 
+         }
+ </style>
+</head>
+<body>
+    <div class="card">
+        <p class="name">Tap Academy</p>
+        <h1 class="title">Gamify Learning Simplify Employment</h1>
+        
+        <p class="description">
+         Tap Academy blends AR, Animation, and AI to teach coding,
+         <strong>Full Stack Web Development</strong>, and tech trends, fostering personalized learning and community 
+         engagement.</p>
+         <button class="btn">Learn more</button>
+      </div> 
+</body>
+</html>
